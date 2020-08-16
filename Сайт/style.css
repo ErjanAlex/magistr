@@ -1,0 +1,95 @@
+h1
+{
+text-align:center;
+margin-bottom: 32px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2
+/*Задний фон таблицы*/
+}
+tr:nth-child(odd){background-color: white;}
+
+th {
+  background-color: #A62500;
+  /*цвет заголовка таблицы*/
+  color: white;
+}
+
+.header { 
+ 
+  background: #007536;
+  /*цвет головы*/
+  color: white;
+  font-size: 18px;
+  border-bottom: 3px solid black;
+  margin-bottom: 30px;
+  height: 130px;
+   position: relative
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+/*body {
+	background: url(https://t4.ftcdn.net/jpg/01/55/11/55/240_F_155115547_KCU1rtGT2HE1uizNT6zkD9QP1YP0mmux.jpg);
+	background-size: cover;
+}
+*/
+h2{
+	 text-align:  center;
+	 margin-bottom: 10px;
+	 margin-top: 10px;
+}
+
+br{
+	margin-top: 10px;
+}
+
+.footer {
+	padding-top: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFA940;
+  /*цвет подвала*/
+  color: white;
+  text-align: center;
+  height: 45px;
+}
+
+#doc_time{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+	font-size: 24px;
+	font-family: console;
+}
+
+input[type=submit]{
+		  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  
+      display: block;
+    margin: 0 auto;
+}
